@@ -58,3 +58,13 @@ body {
     overflow-x: hidden;
     
 }
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem; 
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
