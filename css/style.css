@@ -46,9 +46,13 @@
 /* HERO SECTION */
 
 .section-hero {
-    background-image: url("../img/hero.png");
+    background-image: 
+    linear-gradient(to right bottom,
+        rgba(75,23,35, 0.35),
+        rgba(75,23,35, 0.1)),
+        url("../img/hero.png");
     background-repeat: no-repeat;
-    min-height: 125rem;
+    min-height: 119.5rem;
     max-height: 100vh;
     padding: 0 0;
 }
@@ -155,7 +159,12 @@ button a:hover {
 /* ABOUT SECTION */
 
 .section-about {
-    background-image: url("../img/about-image.png");
+    background-image: 
+        linear-gradient(to right bottom,
+        rgba(75,23,35, 0.35),
+        rgba(75,23,35, 0.35)),
+        url("../img/about-image.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     min-height: 125rem;
     max-height: 100vh;
@@ -164,8 +173,54 @@ button a:hover {
 
 h2 {
     font-size: 4.4rem;
+    text-align: center;
+    font-weight: 300;
+    padding: 3rem 0;
+}
+
+.about-container {
+    padding: 3rem 3rem;
 }
 
 .feature {
     font-size: 2.4rem;
+    border: 1px solid #4b1723;
+    background-color: rgba(75,23,35, 0.35);
+    letter-spacing: 1px;
 }
+
+.feature-icon {
+    font-size: 7.4rem;
+    color: #4b1723;
+    padding: 3rem 0;
+}
+
+.feature-title {
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+.feature-link {
+    font-size: 3rem;
+    background-color: transparent;
+    color: #ddd;
+    border-radius: 10%;
+    padding: 1rem 1rem;
+}
+
+.feature-link {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.feature-link:link,
+.feature-link:active {
+    
+}
+
+.feature-link:hover
+ {
+    text-decoration: underline;
+    color: #bbb;
+}
+
