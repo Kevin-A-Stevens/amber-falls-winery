@@ -58,7 +58,7 @@
 }
 
 .logo {
-    height: 9.8rem;
+    height: 11rem;
     width: auto;
 }
 
@@ -70,7 +70,7 @@
     justify-content: space-between;
 }
 
-/* Dropdown Menu */
+/* DROPDOWN MENU */
 
 .dropdown-content {
     display: none;
@@ -147,11 +147,15 @@ button a:hover {
 .hero-text {
     font-size: 8.6rem;
     color: #ddd;
+    line-height: 1.2;
+    letter-spacing: 2px;
 }
 
 .hero-text3 {
     text-align: center;
     font-size: 4.4rem;
+    font-weight: 300;
+    letter-spacing: 2px;
     color: #ddd;
     padding-top: 3.6rem;
 }
@@ -186,7 +190,8 @@ h2 {
     font-size: 2.4rem;
     border: 1px solid #4b1723;
     background-color: rgba(75,23,35, 0.35);
-    letter-spacing: 1px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
 }
 
 .feature-icon {
@@ -200,12 +205,20 @@ h2 {
     text-align: center;
 }
 
+.feature-text {
+    font-size: 2.4rem;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+    padding: 0 2rem;
+}
+
 .feature-link {
     font-size: 3rem;
+    text-align: center;
     background-color: transparent;
     color: #ddd;
     border-radius: 10%;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
 }
 
 .feature-link {
@@ -276,8 +289,15 @@ h2 {
     width: 50%;
 }
 
+.wines-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
-/* Push Buttons */
+
+/* PUSH BUTTONS */
 
 .pushable {
     position: relative;
@@ -313,12 +333,12 @@ h2 {
     padding: 12px 42px;
     border-radius: 12px;
     font-size: 3rem;
-    color: white;
+    color: #ddd;
     /* background: hsl(345deg 100% 47%); */
     /* background: #815d65; */
     background: #6f454f; /* Color Top */
     transform: translateY(-4px);
-  }
+}
   
   .pushable:hover .front {
     transform: translateY(-6px);
@@ -335,4 +355,36 @@ h2 {
   
   .pushable:focus:not(:focus-visible) {
     outline: none;
+  }
+
+  /* INFORMED SECTION */
+
+  .section-informed {
+    background-color: #4b1723;
+  }
+
+  .informed-title {
+    font-size: 5.2rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5.2rem;
+  }
+
+  .informed-text {
+      font-size: 3rem;
+      font-weight: 300;
+      text-align: center;
+      padding-bottom: 5.2rem;
+  }
+
+  .informed-container {
+      display: grid;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .informed-details {
+      font-size: 3rem;
+      font-weight: 300;
   }
