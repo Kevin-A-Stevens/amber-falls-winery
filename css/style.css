@@ -401,3 +401,26 @@ h2 {
   text-align: center;
   color: #4b1723;
 }
+
+.form {
+  text-align: center;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+  background-color: #4b1723;
+  color: #ddd;
+  /* height: 600px; */
+}
+
+.contact-nav-links {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 12rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+}
