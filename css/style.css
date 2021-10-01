@@ -402,8 +402,11 @@ h2 {
   color: #4b1723;
 }
 
-.form {
+.newsletter-form {
   text-align: center;
+  color: #4b1723;
+  font-size: 3rem;
+  line-height: 2;
 }
 
 /* CONTACT SECTION */
@@ -423,4 +426,27 @@ h2 {
 .contact-container {
   display: flex;
   justify-content: space-evenly;
+}
+
+.contact-us-form {
+  font-size: 3rem;
+  line-height: 2;
+}
+
+.locations-sub-title {
+  font-size: 3rem;
+}
+
+.locations-address {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.locations-phone {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.locations-div {
+  padding-bottom: 3rem;
 }
