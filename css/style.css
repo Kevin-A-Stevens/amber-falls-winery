@@ -267,6 +267,7 @@ h2 {
   font-weight: 300;
   text-align: center;
   padding-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* .shop-link {
@@ -285,14 +286,20 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  margin-bottom: 5rem;
+  width: 75%;
+}
+
+.wine-name {
+  margin-bottom: 3rem;
 }
 
 .wines-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  margin-bottom: 3rem;
+  width: 75%;
 }
 
 /* PUSH BUTTONS */
@@ -374,6 +381,7 @@ h2 {
   font-weight: 300;
   text-align: center;
   padding-bottom: 5.2rem;
+  margin: 0 3rem;
 }
 
 .informed-container {
@@ -385,6 +393,7 @@ h2 {
 .informed-details {
   font-size: 3rem;
   font-weight: 300;
+  margin-bottom: 3rem;
 }
 
 /* JOIN NEWSLETTER SECTION */
@@ -398,6 +407,7 @@ h2 {
   font-weight: 300;
   text-align: center;
   color: #4b1723;
+  padding-top: 3rem;
 }
 
 .join-newsletter-title {
@@ -405,6 +415,7 @@ h2 {
   font-weight: 400;
   text-align: center;
   color: #4b1723;
+  margin-top: 3rem;
 }
 
 .newsletter-form {
@@ -454,4 +465,11 @@ h2 {
 
 .locations-div {
   padding-bottom: 3rem;
+}
+
+/* CALENDAR SECTION */
+
+.calendar {
+  height: 220rem;
+  width: 100%;
 }
