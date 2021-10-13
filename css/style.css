@@ -437,6 +437,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   padding-bottom: 12rem;
+  padding-top: 2rem;
 }
 
 .contact-container {
@@ -470,6 +471,15 @@ h2 {
 /* CALENDAR SECTION */
 
 .calendar {
-  height: 220rem;
+  height: 55rem;
   width: 100%;
+}
+
+.section-calendar {
+  background-color: #dbd1d3;
+  min-height: 95%vh;
+}
+
+.calendar-title {
+  color: #4b1723;
 }
