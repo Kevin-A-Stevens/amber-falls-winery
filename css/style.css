@@ -425,6 +425,22 @@ h2 {
   line-height: 2;
 }
 
+/* CALENDAR SECTION */
+
+.calendar {
+  height: 55rem;
+  width: 100%;
+}
+
+.section-calendar {
+  background-color: #dbd1d3;
+  min-height: 95%vh;
+}
+
+.calendar-title {
+  color: #4b1723;
+}
+
 /* CONTACT SECTION */
 
 .contact {
@@ -443,6 +459,7 @@ h2 {
 .contact-container {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 3rem;
 }
 
 .contact-us-form {
@@ -466,20 +483,4 @@ h2 {
 
 .locations-div {
   padding-bottom: 3rem;
-}
-
-/* CALENDAR SECTION */
-
-.calendar {
-  height: 55rem;
-  width: 100%;
-}
-
-.section-calendar {
-  background-color: #dbd1d3;
-  min-height: 95%vh;
-}
-
-.calendar-title {
-  color: #4b1723;
 }
