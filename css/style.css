@@ -382,9 +382,7 @@ h2 {
   text-align: center;
   padding-bottom: 5.2rem;
   margin: 0 3rem;
-}
 
-.informed-container {
   display: grid;
   text-align: center;
   justify-content: center;
@@ -439,6 +437,26 @@ h2 {
 
 .calendar-title {
   color: #4b1723;
+}
+
+.location-title {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #4b1723;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.section-map {
+  background-color: #dbd1d3;
+}
+
+.map-container {
+  display: flex;
+}
+
+.map-search {
+  width: 50%;
 }
 
 /* CONTACT SECTION */
