@@ -485,6 +485,74 @@ h2 {
   line-height: 2;
 }
 
+/* new contact form */
+.section-book {
+  padding: 150px 0;
+  background-image: linear-gradient(to right bottom, white, gray);
+  color: #fff;
+}
+
+.book {
+  background-image: linear-gradient(
+      105deg,
+      rgba(75, 23, 35, 0.5) 0%,
+      rgba(75, 23, 35, 0.5) 50%,
+      transparent 50%
+    ),
+    url(images/mountain1.jpg);
+}
+
+.book__form {
+  width: 50%;
+  padding: 60px;
+}
+
+.form__group:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form__input {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 15px 20px;
+  border-radius: 2px;
+  background-color: rgba(white, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 70%;
+  display: block;
+  transition: all 0.3s;
+}
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 15px 20px rgba(black, 0.1);
+  border-bottom: 3px solid black;
+}
+
+.form__input:focus:invalid {
+  border-bottom: orange;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #777;
+}
+
+.form__label {
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 7px;
+  display: block;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-40px);
+}
+
 .locations-sub-title {
   font-size: 3rem;
 }
